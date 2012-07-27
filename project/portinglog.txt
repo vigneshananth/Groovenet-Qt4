@@ -1,0 +1,621 @@
+Log for qt3to4 on Mon Jul 16 17:32:03 2012. Number of log entries: 582
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/main.cpp at line 28 column 21: qfiledialog.h -> q3filedialog.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/main.cpp: Added the following include directives:
+	#include <QPixmap> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/StringHelp.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Coords.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QVisualizer.cpp: Added the following include directives:
+	#include <QCloseEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TIGERProcessor.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapObjects.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Global.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 25 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 27 column 18: qlistbox.h -> q3listbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 28 column 22: qbuttongroup.h -> q3buttongroup.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 93 column 92: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 117 column 92: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 167 column 8: QHeader -> Q3Header
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 185 column 29: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 189 column 32: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 194 column 35: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 292 column 11: QDragObject -> Q3DragObject
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 295 column 12: QDragObject -> Q3DragObject
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 313 column 31: QTextDrag -> Q3TextDrag
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.cpp at line 317 column 31: QTextDrag -> Q3TextDrag
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarModel.cpp at line 805 column 12: QPointArray -> Q3PointArray
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarModel.cpp at line 842 column 12: QPointArray -> Q3PointArray
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarModel.cpp: Added the following include directives:
+	#include <Q3PointArray> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/DjikstraTripModel.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.cpp at line 32 column 21: qfiledialog.h -> q3filedialog.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.cpp at line 114 column 79: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.cpp at line 114 column 102: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.cpp at line 177 column 107: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.cpp at line 177 column 130: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.cpp at line 215 column 27: QFileDialog -> Q3FileDialog
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 39 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 41 column 16: qaccel.h -> q3accel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 42 column 21: qfiledialog.h -> q3filedialog.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 53 column 17: QMainWindow -> Q3MainWindow
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 53 column 53: WDestructiveClose -> Qt::WDestructiveClose
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 55 column 12: QDockWindow -> Q3DockWindow
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 66 column 29: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 67 column 43: QAccel -> Q3Accel
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 71 column 45: QAccel -> Q3Accel
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 76 column 64: QAccel -> Q3Accel
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 80 column 67: QAccel -> Q3Accel
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 90 column 45: QAccel -> Q3Accel
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 95 column 28: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 117 column 28: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 131 column 34: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 137 column 31: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 160 column 36: QToolBar -> Q3ToolBar
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 206 column 25: QFileDialog -> Q3FileDialog
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 222 column 234: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 229 column 25: QFileDialog -> Q3FileDialog
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp at line 327 column 173: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.cpp: Added the following include directives:
+	#include <QCloseEvent> 	#include <QPixmap> 	#include <QLabel> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 41 column 21: qdragobject.h -> q3dragobject.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 396 column 45: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 399 column 50: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 402 column 45: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 405 column 50: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 484 column 41: QTextDrag -> Q3TextDrag
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp at line 498 column 14: QTextDrag -> Q3TextDrag
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.cpp: Added the following include directives:
+	#include <QDragMoveEvent> 	#include <QDropEvent> 	#include <QPaintEvent> 	#include <QResizeEvent> 	#include <QPixmap> 	#include <QMouseEvent> 	#include <QKeyEvent> 	#include <QDragEnterEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Model.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/ModelMgr.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/RandomWalkModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimModel.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 35 column 21: qtextstream.h -> q3textstream.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 148 column 229: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 155 column 12: QTextStream -> Q3TextStream
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 163 column 27: IO_ReadOnly -> QIODevice::ReadOnly
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 163 column 42: IO_Translate -> QIODevice::Text
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 304 column 12: QTextStream -> Q3TextStream
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 307 column 28: IO_WriteOnly -> QIODevice::WriteOnly
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 307 column 42: IO_Truncate -> QIODevice::Truncate
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.cpp at line 335 column 40: QTextStream -> Q3TextStream
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/UniformSpeedModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Visualizer.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 2690 column 13: QPointArray -> Q3PointArray
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 2868 column 66: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 2887 column 67: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 2927 column 67: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 2958 column 67: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 3020 column 62: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 3021 column 62: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 3022 column 62: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 3023 column 62: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 3040 column 12: QPointArray -> Q3PointArray
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp at line 3124 column 71: SingleLine -> TextSingleLine
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.cpp: Added the following include directives:
+	#include <QPixmap> 	#include <Q3PointArray> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/GPSModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/NMEAProcessor.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Network.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/UDP.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/NetModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TableVisualizer.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.cpp at line 31 column 8: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.cpp at line 36 column 8: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.cpp at line 48 column 28: QGridLayout -> Q3GridLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.cpp: Added the following include directives:
+	#include <Q3GridLayout> 	#include <QDropEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarFollowingModel.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapObjectTableItem.cpp at line 29 column 47: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapObjectTableItem.cpp at line 30 column 12: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 32 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 33 column 18: qlistbox.h -> q3listbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 45 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 46 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 52 column 38: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 57 column 38: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 75 column 29: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 89 column 26: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 90 column 33: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 91 column 36: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp at line 92 column 33: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarRegistry.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 33 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 34 column 17: qheader.h -> q3header.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 38 column 21: qfiledialog.h -> q3filedialog.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 45 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 45 column 39: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 47 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 47 column 48: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 49 column 32: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 88 column 8: QHeader -> Q3Header
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 97 column 44: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 98 column 41: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 117 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 119 column 11: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 220 column 11: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 232 column 11: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp at line 241 column 37: QFileDialog -> Q3FileDialog
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.cpp at line 245 column 10: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.cpp at line 245 column 39: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.cpp at line 289 column 35: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingTextTableItem.cpp at line 27 column 51: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingTextTableItem.cpp at line 28 column 12: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingTextTableItem.cpp at line 76 column 12: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.cpp at line 27 column 49: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.cpp at line 28 column 12: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.cpp at line 40 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.cpp at line 51 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.cpp at line 75 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.cpp at line 88 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.cpp at line 29 column 53: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.cpp at line 30 column 17: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.cpp at line 65 column 18: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.cpp at line 69 column 17: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingColorTableItem.cpp at line 37 column 53: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingColorTableItem.cpp at line 74 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingColorTableItem.cpp at line 74 column 43: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingColorTableItem.cpp: Added the following include directives:
+	#include <QPixmap> 	#include <Q3HBoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QColorPushButton.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFilePushButton.cpp at line 27 column 21: qfiledialog.h -> q3filedialog.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFilePushButton.cpp at line 42 column 29: QFileDialog -> Q3FileDialog
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingFileTableItem.cpp at line 35 column 51: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingFileTableItem.cpp at line 47 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingFileTableItem.cpp at line 47 column 43: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingFileTableItem.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 29 column 22: qbuttongroup.h -> q3buttongroup.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 34 column 18: qlistbox.h -> q3listbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 35 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 49 column 84: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 61 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 61 column 40: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 62 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 62 column 51: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 63 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 63 column 51: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 64 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 64 column 58: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 65 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 65 column 50: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 66 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 66 column 49: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 71 column 34: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 76 column 31: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 82 column 30: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 86 column 29: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 95 column 41: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp at line 96 column 38: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 30 column 18: qlistbox.h -> q3listbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 31 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 33 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 36 column 19: qtextedit.h -> q3textedit.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 73 column 90: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 102 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 102 column 40: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 103 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 103 column 51: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 104 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 104 column 62: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 105 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 105 column 49: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 106 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 106 column 51: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 107 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 107 column 57: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 108 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 108 column 54: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 109 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 109 column 54: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 110 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 110 column 54: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 111 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 111 column 62: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 112 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 112 column 68: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 113 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 113 column 65: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 114 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 114 column 65: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 115 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 115 column 65: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 116 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 116 column 49: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 117 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 117 column 55: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 118 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 118 column 52: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 119 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 119 column 52: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 120 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 120 column 52: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 121 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 121 column 49: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 179 column 30: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 180 column 41: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 181 column 28: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 183 column 36: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 187 column 47: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 191 column 34: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 196 column 38: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 197 column 43: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 202 column 49: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 203 column 54: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 208 column 36: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 209 column 41: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 245 column 42: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 246 column 53: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 247 column 40: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 274 column 50: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 275 column 47: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 287 column 61: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 288 column 58: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 300 column 48: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 301 column 45: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1231 column 152: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1231 column 175: QMessageBox -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1341 column 42: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1348 column 16: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1354 column 60: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1360 column 60: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1393 column 60: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp at line 1398 column 60: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 31 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 40 column 66: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 48 column 35: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 52 column 23: QWidget -> Qt
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 120 column 45: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 123 column 50: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 126 column 45: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp at line 129 column 50: ControlButton -> ControlModifier
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.cpp: Added the following include directives:
+	#include <QPaintEvent> 	#include <QResizeEvent> 	#include <QPixmap> 	#include <QMouseEvent> 	#include <QKeyEvent> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 35 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 36 column 19: qtextedit.h -> q3textedit.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 59 column 74: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 71 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 71 column 40: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 72 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 72 column 51: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 73 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 73 column 53: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 74 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 74 column 46: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 75 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 75 column 49: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 86 column 31: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 87 column 36: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 112 column 43: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 113 column 40: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 275 column 39: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 462 column 40: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 488 column 47: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 489 column 21: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 518 column 45: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 519 column 19: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 534 column 46: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 535 column 20: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 790 column 52: IO_ReadOnly -> QIODevice::ReadOnly
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 790 column 67: IO_Translate -> QIODevice::Text
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp at line 792 column 14: QTextStream -> Q3TextStream
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.cpp: Added the following include directives:
+	#include <Q3TextStream> 	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 32 column 19: qtextedit.h -> q3textedit.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 33 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 44 column 16: qframe.h -> q3frame.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 53 column 144: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 59 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 59 column 40: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 60 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 60 column 46: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 66 column 31: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 67 column 36: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 84 column 43: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 85 column 40: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 137 column 38: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 192 column 45: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 218 column 47: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 219 column 21: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 248 column 45: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 251 column 19: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 266 column 46: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp at line 267 column 20: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimpleCommModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimplePhysModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimpleLinkModel.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 29 column 22: qbuttongroup.h -> q3buttongroup.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 33 column 18: qlistbox.h -> q3listbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 46 column 21: qtextstream.h -> q3textstream.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 49 column 19: qgroupbox.h -> q3groupbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 53 column 91: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 63 column 10: QGroupBox -> Q3GroupBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 63 column 46: QGroupBox -> Q3GroupBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 69 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 69 column 40: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 70 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 70 column 52: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 71 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 71 column 50: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 72 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 72 column 50: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 73 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 73 column 54: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 74 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 74 column 49: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 79 column 34: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 173 column 12: QTextStream -> Q3TextStream
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 177 column 27: IO_ReadOnly -> QIODevice::ReadOnly
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp at line 177 column 42: IO_Translate -> QIODevice::Text
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Message.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SightseeingModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FixedMobilityModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CollisionPhysModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TrafficLightModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/InfrastructureNodeModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/InfrastructureNodeRegistry.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MultiPhysModel.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.cpp at line 35 column 37: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.cpp at line 36 column 12: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.cpp at line 47 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.cpp at line 47 column 43: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.cpp at line 63 column 12: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimBase.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/AdaptiveCommModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/StreetSpeedModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/GrooveCommModel.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 41 column 150: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 47 column 12: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 47 column 40: QVBoxLayout -> Q3VBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 48 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 48 column 48: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 49 column 12: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp at line 49 column 49: QHBoxLayout -> Q3HBoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.cpp: Added the following include directives:
+	#include <Q3HBoxLayout> 	#include <Q3VBoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TCP.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimUnconstrainedModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/RandomWaypointModel.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Denso.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/get_ifi_info.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/queue.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/WAVEapi.cpp
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/IP.cpp
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.cpp at line 32 column 24: QBoxLayout -> Q3BoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.cpp at line 32 column 40: QBoxLayout -> Q3BoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.cpp at line 33 column 30: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.cpp: Added the following include directives:
+	#include <Q3BoxLayout> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Global.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/StringHelp.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 22 column 18: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 24 column 18: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 27 column 28: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 27 column 76: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 27 column 123: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 27 column 168: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 27 column 214: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 27 column 265: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 30 column 17: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 36 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 37 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 41 column 31: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 43 column 39: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 44 column 39: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 45 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 45 column 63: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 45 column 102: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 49 column 46: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 50 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 50 column 71: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 53 column 18: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 57 column 38: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 60 column 18: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 60 column 63: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 62 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 62 column 52: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 64 column 35: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 67 column 18: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 67 column 51: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 68 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 69 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 69 column 65: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 69 column 90: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 70 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 70 column 60: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 75 column 22: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 77 column 34: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 80 column 32: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 80 column 66: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 81 column 38: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 82 column 38: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 83 column 31: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 83 column 68: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FibonacciHeap.h at line 84 column 40: Key -> Qt::Key
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QVisualizer.h: Added the following include directives:
+	#include <QPaintEvent> 	#include <QResizeEvent> 	#include <QMouseEvent> 	#include <QFocusEvent> 	#include <QShowEvent> 	#include <QMoveEvent> 	#include <QKeyEvent> 	#include <QEvent> 	#include <QHideEvent> 	#include <QDragMoveEvent> 	#include <QContextMenuEvent> 	#include <QDragLeaveEvent> 	#include <QWheelEvent> 	#include <QDropEvent> 	#include <QDragEnterEvent> 	#include <QCloseEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TIGERProcessor.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapObjects.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.h at line 31 column 21: qdragobject.h -> q3dragobject.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.h at line 36 column 16: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.h at line 71 column 11: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.h at line 74 column 11: QDragObject -> Q3DragObject
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarListVisual.h: Added the following include directives:
+	#include <Q3PopupMenu> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/DjikstraTripModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Logger.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h at line 30 column 21: qmainwindow.h -> q3mainwindow.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h at line 33 column 20: qpopupmenu.h -> q3popupmenu.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h at line 34 column 18: qtoolbar.h -> q3toolbar.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h at line 40 column 36: QMainWindow -> Q3MainWindow
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h at line 47 column 11: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h at line 55 column 9: QToolBar -> Q3ToolBar
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MainWindow.h: Added the following include directives:
+	#include <QCloseEvent> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapVisual.h: Added the following include directives:
+	#include <QResizeEvent> 	#include <QDragEnterEvent> 	#include <QDropEvent> 	#include <QMouseEvent> 	#include <QDragMoveEvent> 	#include <QKeyEvent> 	#include <QPaintEvent> 	#include <QFocusEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Model.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/ModelMgr.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/RandomWalkModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.h at line 45 column 17: QTextStream -> Q3TextStream
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.h at line 119 column 30: QTextStream -> Q3TextStream
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Simulator.h: Added the following include directives:
+	#include <Q3TextStream> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/UniformSpeedModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Visualizer.h: Added the following include directives:
+	#include <QResizeEvent> 	#include <QShowEvent> 	#include <QWheelEvent> 	#include <QMoveEvent> 	#include <QDragEnterEvent> 	#include <QDropEvent> 	#include <QHideEvent> 	#include <QMouseEvent> 	#include <QDragMoveEvent> 	#include <QContextMenuEvent> 	#include <QKeyEvent> 	#include <QCloseEvent> 	#include <QPaintEvent> 	#include <QFocusEvent> 	#include <QDragLeaveEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MapDB.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/GPSModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/NMEAProcessor.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Network.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/UDP.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/NetModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h at line 31 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h at line 34 column 21: qdragobject.h -> q3dragobject.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h at line 39 column 19: QDragObject -> Q3DragObject
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h at line 41 column 36: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h at line 60 column 27: QDragObject -> Q3DragObject
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h at line 76 column 12: QGridLayout -> Q3GridLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QTableVisualizer.h: Added the following include directives:
+	#include <Q3GridLayout> 	#include <QDropEvent> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TableVisualizer.h: Added the following include directives:
+	#include <QDropEvent> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarFollowingModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapObjectTableItem.h at line 28 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapObjectTableItem.h at line 32 column 45: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapObjectTableItem.h at line 35 column 27: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.h at line 41 column 16: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.h at line 42 column 14: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.h at line 74 column 9: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.h at line 79 column 11: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.h at line 80 column 11: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QNetworkManager.h: Added the following include directives:
+	#include <Q3PopupMenu> 	#include <QLabel> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CarRegistry.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.h at line 30 column 12: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.h at line 45 column 7: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QConfigureDialog.h at line 48 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.h at line 29 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.h at line 234 column 11: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.h at line 234 column 31: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Settings.h at line 235 column 27: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingTextTableItem.h at line 28 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingTextTableItem.h at line 33 column 47: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingTextTableItem.h at line 36 column 29: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 28 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 34 column 46: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 37 column 28: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 42 column 64: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 44 column 52: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 46 column 26: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 48 column 30: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QExpandableTableItem.h at line 65 column 29: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.h at line 28 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.h at line 33 column 53: QComboTableItem -> Q3ComboTableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingComboTableItem.h at line 36 column 30: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingColorTableItem.h at line 38 column 30: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingColorTableItem.h: Added the following include directives:
+	#include <QPixmap> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QColorPushButton.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFilePushButton.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSettingFileTableItem.h at line 36 column 29: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 37 column 18: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 41 column 14: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 42 column 12: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 48 column 86: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 73 column 13: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 79 column 9: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimRunDialog.h at line 80 column 7: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 41 column 14: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 42 column 12: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 43 column 16: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 46 column 15: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 52 column 92: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 101 column 25: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 107 column 9: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 110 column 7: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 111 column 10: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h at line 112 column 11: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QSimCreateDialog.h: Added the following include directives:
+	#include <QLabel> 	#include <Q3PopupMenu> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.h at line 38 column 16: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.h at line 53 column 66: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.h at line 156 column 11: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMapWidget.h: Added the following include directives:
+	#include <QResizeEvent> 	#include <QMouseEvent> 	#include <QKeyEvent> 	#include <Q3PopupMenu> 	#include <QPaintEvent> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h at line 37 column 15: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h at line 38 column 12: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h at line 69 column 70: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h at line 90 column 25: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h at line 103 column 7: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h at line 104 column 10: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenDialog.h: Added the following include directives:
+	#include <QLabel> 
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.h at line 33 column 15: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.h at line 39 column 135: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.h at line 50 column 10: QTextEdit -> Q3TextEdit
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.h at line 58 column 25: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.h at line 61 column 7: QTable -> Q3Table
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QAutoGenModelDialog.h: Added the following include directives:
+	#include <QLabel> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimpleCommModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimplePhysModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimpleLinkModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.h at line 37 column 18: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.h at line 41 column 14: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.h at line 53 column 91: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.h at line 68 column 13: QButtonGroup -> Q3ButtonGroup
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageDialog.h: Added the following include directives:
+	#include <QLabel> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Message.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SightseeingModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/FixedMobilityModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/CollisionPhysModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TrafficLightModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/InfrastructureNodeModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/InfrastructureNodeRegistry.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/MultiPhysModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.h at line 28 column 16: qtable.h -> q3table.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.h at line 32 column 40: QTableItem -> Q3TableItem
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QFileTableItem.h at line 35 column 22: QTable -> Q3Table
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimBase.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/AdaptiveCommModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Coords.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/StreetSpeedModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/GrooveCommModel.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.h at line 45 column 135: WFlags -> Qt::WFlags
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QBoundingRegionConfDialog.h: Added the following include directives:
+	#include <QLabel> 
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/TCP.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/SimUnconstrainedModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/RandomWaypointModel.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/Denso.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/queue.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/unpifi.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/WAVEapi.h
+No changes made to file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/IP.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h at line 35 column 18: qlistbox.h -> q3listbox.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h at line 37 column 19: qtextedit.h -> q3textedit.h
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h at line 44 column 16: QPopupMenu -> Q3PopupMenu
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h at line 45 column 14: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h at line 59 column 9: QListBox -> Q3ListBox
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h at line 60 column 11: QBoxLayout -> Q3BoxLayout
+In file /home/vignesh/Desktop/test2/mlab-penn-GrooveNet-3e6a1f4/project/src/QMessageList.h: Added the following include directives:
+	#include <QLabel> 	#include <Q3BoxLayout> 	#include <Q3PopupMenu> 
+In file src.pro: Added entry QT +=  qt3support 
+
