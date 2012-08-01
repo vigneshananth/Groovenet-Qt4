@@ -1,4 +1,4 @@
-Groovenet-Qt4
+Groovenet-Qt4: Not built completely yet.
 =============
 
-Individual fileiks compile stable with Qt4, couple of links fail. 
+Individual filelinks compile stable with Qt4, final bin/groovenet.o not built because of fails in linking. 
